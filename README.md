@@ -38,3 +38,36 @@ o Assume that the input file will NOT contain any special characters.
 o The following should be read from command line: input file name, output file name, and the value of NUM_ITERATIONS.
 
 o Use the Logger class from any previous assignment along with your own debug scheme.
+
+•	Your directory structure should be the following:
+
+    •	 lastName_firstName_assign4
+    •	   ---wordCount
+    •	     ----- README.txt
+    •	     ----- build.xml
+    •	     ----- src
+    •	        -----wordCount
+    •	     	   ----------driver
+    •		        	   ----------Driver
+    •	
+    •					    (1) Validate that command line inputs for input and output file names.
+    •				   	    (2) Create the element(s)
+    •				            (3) Create the two visitor instances
+    •					    (4) Use the performance measurement loop given above.
+    •	
+    •				 
+    •	           ----------util
+    •		              ----------FileProcessor 
+    •				  [methods to read a line and write to a file]
+    •	           ----------dsForStrings
+    •		              ----------...
+    •				  [Classes for data structures, if you define your own]
+    •	           ----------visitors
+    •		              ----------PopulateVisitor
+    •				  [Visitor class that reads words from a file and populates a data structure]
+    •		              ----------WordCountVisitor
+    •				  [Visitor that determines the total number of words, total number of unique words, and characters stored in the data structure]
+    •		              ----------DSProcessingVisitorI
+    •				  [visitor interface]
+    •	           ----------other packages that you need
+
